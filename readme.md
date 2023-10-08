@@ -35,3 +35,11 @@ Mit pre-commit können Sie sicherstellen, dass Ihr Code stets den definierten St
 
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
+
+Öffnen Sie Ihre .env-Datei und suchen Sie nach dem Eintrag, der das Passwort enthält.
+
+Kopieren Sie das Passwort aus Ihrer .env-Datei.
+
+Speichern Sie das Passwort als geheimen Wert im Azure Key Vault. Dies ermöglicht eine sichere und zentrale Speicherung von Passwörtern.
+
+Ändern Sie Ihre Anwendungslogik, um das Passwort aus Azure anstelle aus Ihrer .env-Datei zu lesen.
